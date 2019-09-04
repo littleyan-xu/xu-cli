@@ -1,0 +1,40 @@
+{
+  "name": "xu-cli",
+  "version": "1.0.0",
+  "description": "this is xu-cli",
+  "main": "index.js",
+  "bin": "./bin/www.js",
+  "scripts": {
+    "lint": "eslint src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/littleyan-xu/xu-cli.git"
+  },
+  "keywords": [],
+  "author": "xuxiaoyan",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.3.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.2.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "husky": "^3.0.5"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.1",
+    "consolidate": "^0.15.1",
+    "download-git-repo": "^2.0.0",
+    "ejs": "^2.7.1",
+    "inquirer": "^7.0.0",
+    "metalsmith": "^2.3.0",
+    "ncp": "^2.0.0",
+    "ora": "^3.4.0"
+  }
+}
