@@ -24,3 +24,6 @@ Commands:
 Examples：
 darkxu-cli create my-project
 ```
+
+## github
+[https://github.com/littleyan-xu/xu-cli](https://github.com/littleyan-xu/xu-cli)
