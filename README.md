@@ -2,15 +2,25 @@
 create vue project scaffolder
 
 
-## 安装依赖
+## Installation
 
 ```bash
-npm i
+npm install darkxu-cli -g
 ```
 
-## 运行
+## Usage
 
 ```bash
-xu-cli create my-project
-xu-cli c my-project
+Usage:  <command> [options]
+
+Options:
+  -V, --version             output the version number
+  -h, --help                output usage information
+
+Commands:
+  create|c <name>           create a new project
+  config [options] [value]  inspect and modify the config
+
+Examples：
+darkxu-cli create my-project
 ```

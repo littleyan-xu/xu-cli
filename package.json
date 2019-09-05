@@ -1,8 +1,8 @@
 {
-  "name": "xu-cli",
-  "version": "1.0.0",
-  "description": "this is xu-cli",
-  "main": "index.js",
+  "name": "darkxu-cli",
+  "version": "1.0.1",
+  "description": "this is darkxu-cli",
+  "main": "./src/index.js",
   "bin": "./bin/www.js",
   "scripts": {
     "lint": "eslint src",
@@ -14,7 +14,7 @@
     "url": "https://github.com/littleyan-xu/xu-cli.git"
   },
   "keywords": [],
-  "author": "xuxiaoyan",
+  "author": "xxyzjb",
   "license": "ISC",
   "devDependencies": {
     "babel-eslint": "^10.0.1",

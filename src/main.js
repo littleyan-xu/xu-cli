@@ -44,7 +44,7 @@ program
 program.on('--help', () => {
   console.log()
   console.log(chalk.yellow('Examples：'))
-  console.log('xu-cli create my-project')
+  console.log('darkxu-cli create my-project')
 })
 
 // 在未输入任何命令时，给出帮助提示
