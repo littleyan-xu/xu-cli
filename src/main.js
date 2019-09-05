@@ -17,7 +17,7 @@ program
   .action((name) => {
     // console.log(name)
     const command = 'create'
-    console.log('__dirname', __dirname)
+    // console.log('__dirname', __dirname)
     // console.log('参数：', ...process.argv.slice(3))
     require(path.resolve(__dirname, command))(name)
   })
